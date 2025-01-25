@@ -20,7 +20,7 @@ form input {
     margin-bottom: 10px;
 }
 
-form input:focus {
+form input:focus, form button:focus, form select:focus {
     border: 3px solid green;
     border-radius: 5px;
 }
